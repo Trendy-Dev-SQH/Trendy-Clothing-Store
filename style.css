@@ -10,12 +10,14 @@
 
 html, body {
   height: 100%;
+}
+
 body {
   background: 
     radial-gradient(circle at 15% 30%, rgba(0, 0, 0, 0.15) 0%, transparent 35%),
     radial-gradient(circle at 85% 70%, rgba(0, 0, 0, 0.12) 0%, transparent 40%),
     radial-gradient(circle at 50% 100%, rgba(0, 0, 0, 0.08) 0%, transparent 45%),
-    linear-gradient(135deg, #0f0f1e 0%, #000000 40%, #16213e 100%);
+    linear-gradient(135deg, #ffffff 0%, #000000 40%, #afafaf 100%);
   color: #000000;
   min-height: 100vh;
   display: flex;
@@ -28,14 +30,15 @@ body {
 .container {
   width: 100%;
   max-width: 420px;
-  background: rgba(20, 20, 40, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   padding: 28px;
   text-align: center;
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(166, 196, 243, 0.15);
   backdrop-filter: blur(15px);
 }
+
 /* Cabecera */
 .logo {
   width: 110px;
@@ -53,12 +56,12 @@ body {
   font-weight: 600;
   letter-spacing: 0.4px;
   margin-bottom: 6px;
-  color: #1a1a1a;
+  color: #ffffff;
 }
 
 .tagline {
   font-size: 13px;
-  color: #666666;
+  color: #b0b0c0;
   margin-bottom: 20px;
   line-height: 1.3;
 }
@@ -142,7 +145,7 @@ body {
 /* Pie de página */
 .footer {
   margin-top: 20px;
-  color: #888888;
+  color: #a0a0a8;
   font-size: 12px;
 }
 
@@ -155,7 +158,7 @@ body {
 }
 
 .footer-links a {
-  color: #4a90e2;
+  color: #5ba3ff;
   text-decoration: none;
   font-weight: 500;
   transition: color 200ms ease, text-decoration 200ms ease;
@@ -165,13 +168,13 @@ body {
 
 .footer-links a:hover,
 .footer-links a:focus {
-  color: #2563eb;
+  color: #7fb5ff;
   text-decoration: underline;
   outline: none;
 }
 
 .footer-links .separator {
-  color: #cccccc;
+  color: #555555;
   font-weight: 300;
   user-select: none;
 }
@@ -185,6 +188,4 @@ body {
   .footer-links { flex-wrap: wrap; gap: 4px; }
   .footer-links a { font-size: 11px; padding: 2px 4px; }
 }
-
-
 
